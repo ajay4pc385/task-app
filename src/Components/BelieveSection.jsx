@@ -34,7 +34,7 @@ const BelieveSection = () => {
 
   return (
     <>
-      <section className="bg-gray-900 text-white py-12">
+      <section className="bg-gray-900 text-white pt-12 mb-4">
         <div className="container mx-auto flex flex-col lg:flex-row items-center lg:space-x-12">
           
           {/* Left Side: Text and Icon */}

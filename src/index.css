@@ -259,17 +259,20 @@ a{
       .believe-boxes {
         position: relative;
         top: 65px;
+        
         left: 1px;
     }
     .boxes_believe {
       position: relative;
-     top: -250px;
+     top: -300px;
       left: 6px;
+      width: 100%;
   }
   .boxes {
     position: relative;
-    top: -190px;
+    top: -250px;
     left: 3px;
+    width: 100%;
 }
 .Stats{
   width: 100%;
@@ -361,13 +364,15 @@ a{
     }
     .boxes_believe {
       position: relative;
-     top: -250px;
+     top: -300px;
       left: 6px;
+      width: 100%;
   }
   .boxes {
     position: relative;
-    top: -190px;
+    top: -250px;
     left: 3px;
+    width: 100%;
 }
 .Stats{
   width: 100%;
@@ -467,13 +472,15 @@ a{
     }
     .boxes_believe {
       position: relative;
-     top: -250px;
+     top: -300px;
       left: 6px;
+      width: 100%;
   }
   .boxes {
     position: relative;
-    top: -190px;
+    top: -250px;
     left: 3px;
+    width: 100%;
 }
 .Stats{
   width: 100%;
@@ -574,18 +581,20 @@ a{
     }
     .boxes_believe {
       position: relative;
-     top: -250px;
+     top: -300px;
       left: 6px;
   }
   .boxes {
     position: relative;
-    top: -190px;
+    top: -250px;
     left: 3px;
+    width: 100%;
 }
 .boxes {
   position: relative;
-  top: -190px;
+  top: -250px;
   left: 3px;
+  width: 100%;
 }
 .Stats{
   width: 100%;
@@ -701,13 +710,15 @@ a{
     }
     .boxes_believe {
       position: relative;
-      top: -250px;
+      top: -300px;
       left: 6px;
+      width: 100%;
   }
   .boxes {
     position: relative;
-    top: -190px;
+    top: -250px;
     left: 3px;
+    width: 100%;
 }
 .Stats{
   width: 100%;
@@ -809,13 +820,15 @@ a{
     }
     .boxes_believe {
       position: relative;
-      top: -250px;
+      top: -270px;
       left: 6px;
+      width: 100%;
   }
   .boxes {
     position: relative;
-    top: -190px;
+    top: -250px;
     left: 3px;
+    width: 100%;
 }
 .Stats{
   width: 100%;

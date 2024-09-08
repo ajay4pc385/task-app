@@ -231,7 +231,7 @@ a{
         padding: 20px; /* Optional: for some padding around the text */
       }
       .height-about{
-        height: 70vh;
+        height: 50vh;
       }
 }
 
@@ -308,7 +308,7 @@ a{
         padding: 20px; /* Optional: for some padding around the text */
       }
       .height-about{
-        height: 70vh;
+        height: 50vh;
       }
 }
 @media (max-width: 576px) {
@@ -393,7 +393,7 @@ a{
         padding: 20px; /* Optional: for some padding around the text */
       }
       .height-about{
-        height: 70vh;
+        height: 50vh;
       }
  
 }
@@ -479,7 +479,7 @@ a{
         padding: 20px; /* Optional: for some padding around the text */
       }
       .height-about{
-        height: 70vh;
+        height: 50vh;
       }
 }
 @media (max-width: 300px) {
@@ -580,7 +580,7 @@ a{
         padding: 20px; /* Optional: for some padding around the text */
       }
       .height-about{
-        height: 70vh;
+        height: 50vh;
       }
 }
 
@@ -667,6 +667,6 @@ a{
         padding: 20px; /* Optional: for some padding around the text */
       }
       .height-about{
-        height: 70vh;
+        height: 50vh;
       }
 }

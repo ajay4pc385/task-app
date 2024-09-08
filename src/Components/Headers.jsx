@@ -5,6 +5,7 @@ import { IoClose } from "react-icons/io5";
 
 import logo_img from "../image/logo-hero.png"
 import TopBar from './TopBar';
+import { Link } from 'react-router-dom';
 
 const Headers = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,11 +18,13 @@ const Headers = () => {
     
 <TopBar/>
       {/* Main Header */}
-      <div className="bg-white py-4 px-4 fixed top-9 w-full z-50 shadow-md headers">
+      <div className="bg-white py-3 px-4 fixed top-9 w-full z-50 shadow-md headers">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="flex">
-          <img src={logo_img} alt="Logo" className="h-12" />
+          <Link to={"/"}>
+          <img src={logo_img} alt="Logo" className="h-12 transition-transform duration-300 ease-in-out  hover:scale-110" />
+          </Link>
         </div>
 
         {/* Hamburger Icon for mobile */}
@@ -41,19 +44,17 @@ const Headers = () => {
         {/* Call us Button */}
         <div className="hidden lg:block d-flex ">
         <nav className={`lg:flex lg:space-x-8 lg:items-center ${isOpen ? 'block' : 'hidden'} absolute lg:relative bg-white lg:bg-transparent w-full lg:w-auto left-0 lg:left-auto top-16 lg:top-auto  lg:shadow-none`}>
-          <a href="/" className="block px-4 py-4 font-bold lg:py-0 text-sm text-gray-800 hover:text-white hover:bg-gray-900  ">
+          <Link to="/" className="block px-4 py-4 font-bold lg:py-0 text-sm text-gray-800 hover:text-white hover:bg-gray-900  transition-transform duration-300 ease-in-out  hover:scale-110">
             HOME
-          </a>
-          <a href="/about" className="block px-4 font-bold py-4 lg:py-0 text-sm text-gray-800 hover:text-white hover:bg-gray-900 ">
+          </Link>
+          <Link to="/about-us" className="block px-4 font-bold py-4 lg:py-0 text-sm text-gray-800 hover:text-white hover:bg-gray-900 transition-transform duration-300 ease-in-out  hover:scale-110">
             ABOUT US
-          </a>
-          <a href="/services" className="block font-bold px-4 py-4 lg:py-0 text-sm text-gray-800 hover:text-white hover:bg-gray-900 ">
+          </Link>
+          <Link to="/services" className="block font-bold px-4 py-4 lg:py-0 text-sm text-gray-800 hover:text-white hover:bg-gray-900 transition-transform duration-300 ease-in-out  hover:scale-110">
             SERVICES
-          </a>
-          <a href="/faq" className="block px-4 font-bold py-4 lg:py-0 text-gray-800 text-sm hover:text-white hover:bg-gray-900 ">
-            FAQ'S
-          </a>
-          <button className="hidden lg:block font-bold bg-gray-900 text-white py-4 px-4 text-sm rounded-md hover:bg-gray-700 sm-3 transition duration-0 hover:duration-150">
+          </Link>
+        
+          <button className="hidden lg:block font-bold bg-gray-900 text-white py-4 px-4 text-sm rounded-md  sm-3 transition-transform duration-300 ease-in-out  hover:scale-110">
             CALL US ANYTIME
           </button>
         </nav>

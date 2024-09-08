@@ -1,9 +1,13 @@
-import React from 'react';
+import {  useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Founter from "../image/Pawan-panjabi-e1724242619180.jpg";
 import Contact from './Contact';
-import { PiNotebookFill } from "react-icons/pi";
-
+import shap_icon from "../image/img-icon-02-1.png"
 const Founder = () => {
+  useEffect(() => {
+		AOS.init();
+	  }, []);
   return (
     <>
   
@@ -12,13 +16,11 @@ const Founder = () => {
  
 
     <div className="container mx-auto text-center py-8">
-   
-      <h2 className="text-center font-bold text-3xl mb-6">Meet our Founder</h2>
+   {/* <img src={shap_icon} alt="icon" className="fs-1 text-orange-500 font-bold"/> */}
+      <h2 className="text-center font-bold text-3xl mb-6" data-aos="fade-up">Meet our Founder</h2>
       
-     
-
-     
-      <div className="flex flex-col items-center ">
+    
+      <div className="flex flex-col items-center " data-aos="fade-up">
         <img 
           src={Founter} 
           alt="Founder"

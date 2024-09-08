@@ -29,40 +29,40 @@ const Contact = () => {
 </p>
 </div>
 <div className=' d-flex gap-2 social-media-icons'>
-    <IoLocationOutline className='text-orange-500 font-bold text-xl mt-1'/>
+    <IoLocationOutline className='text-orange-500 font-bold text-xl mt-1 transition-transform duration-300 ease-in-out  hover:scale-110'/>
 <p className='font-bold'>Sydney, Australia
 </p>
 </div>
 <div className=' d-flex gap-2 social-media-icons'>
-    <IoCall className='text-orange-500 font-bold text-xl mt-1'/>
+    <IoCall className='text-orange-500 font-bold text-xl mt-1 transition-transform duration-300 ease-in-out  hover:scale-110'/>
 <p className='font-bold'> 0468328227
 
 </p>
 </div>
 <div className=' d-flex gap-2 social-media-icons'>
-<MdAccessTimeFilled className='text-orange-500 font-bold text-xl mt-1'/>
+<MdAccessTimeFilled className='text-orange-500 font-bold text-xl mt-1 transition-transform duration-300 ease-in-out  hover:scale-110'/>
 <p className='font-bold'>Mon - Fri: 9:00am - 5:00pm
 </p>
 </div>
 <div className=' d-flex gap-2 social-media-icons'>
-    <MdAccessTimeFilled className='text-orange-500 font-bold text-xl mt-1'/>
+    <MdAccessTimeFilled className='text-orange-500 font-bold text-xl mt-1 transition-transform duration-300 ease-in-out  hover:scale-110'/>
 <p className='font-bold'>Weekend Appointments Only
 </p>
 </div>
 <div className=' d-flex gap-3 social-media'>
-    <span className='bg-orange-500 p-2 hover:bg-slate-600 hover:text-white focus:outline-none focus:ring focus:ring-slate-300 '>
+    <span className='bg-orange-500 p-2 hover:bg-slate-600 hover:text-white focus:outline-none focus:ring focus:ring-slate-300 transition-transform duration-300 ease-in-out  hover:scale-110'>
     <FaInstagram />
     </span>
-    <span className='bg-orange-500 p-2 hover:bg-slate-600 hover:text-white focus:outline-none focus:ring focus:ring-slate-300 '>
+    <span className='bg-orange-500 p-2 hover:bg-slate-600 hover:text-white focus:outline-none focus:ring focus:ring-slate-300 transition-transform duration-300 ease-in-out  hover:scale-110'>
     <FaFacebook/>
     </span>
-    <span className='bg-orange-500 p-2 hover:bg-slate-600 hover:text-white focus:outline-none focus:ring focus:ring-slate-300 '>
+    <span className='bg-orange-500 p-2 hover:bg-slate-600 hover:text-white focus:outline-none focus:ring focus:ring-slate-300 transition-transform duration-300 ease-in-out  hover:scale-110'>
     <FaTwitter/>
     </span>
-    <span className='bg-orange-500 p-2 hover:bg-slate-600 hover:text-white focus:outline-none focus:ring focus:ring-slate-300 '>
+    <span className='bg-orange-500 p-2 hover:bg-slate-600 hover:text-white focus:outline-none focus:ring focus:ring-slate-300 transition-transform duration-300 ease-in-out  hover:scale-110'>
     <FaTelegram/>
     </span>
-    <span className='bg-orange-500 p-2 hover:bg-slate-600 hover:text-white focus:outline-none focus:ring focus:ring-slate-300 '>
+    <span className='bg-orange-500 p-2 hover:bg-slate-600 hover:text-white focus:outline-none focus:ring focus:ring-slate-300 transition-transform duration-300 ease-in-out  hover:scale-110'>
 <FaWordpress/>
 </span>
 </div>

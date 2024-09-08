@@ -19,7 +19,7 @@ const HeroSection = () => {
 					<h4 className='font-bold'>
 						Our Story					</h4>
 				</div>
-									<p class="elementor-icon-box-description">
+									<p class="elementor-icon-box-description text-gray-500">
 						Alpha Financial Solutions provides bespoke mortgage and finance services. We believe that financial freedom is not just a goal but a journey, and we are here to guide you every step of the way.					</p>
 							</div>
               <div class="elementor-widget-container">
@@ -42,7 +42,7 @@ const HeroSection = () => {
 					<h4 className='font-bold'>
 						Our Mission					</h4>
 				</div>
-									<p class="elementor-icon-box-description">
+									<p class="elementor-icon-box-description  text-gray-500">
 						At Alpha Financial Solutions, our mission is to empower individuals and businesses to achieve their financial aspirations through tailored solutions, expert advice, and exceptional service. We strive to build lasting relationships based on trust, integrity, and mutual success.
 					</p>
 							</div>

@@ -3,9 +3,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { MdOutlineDocumentScanner } from "react-icons/md";
 import { GrDocumentStore } from "react-icons/gr";
-import img_shap from "../image/img-shape-02-1.png"
-import Gallery from "../Components/Gallery"
-const Services = () => {
+import img_shap from "../../image/img-shape-02-1.png"
+
+const ServicesSection = () => {
   useEffect(() => {
 		AOS.init();
 	  }, []);
@@ -34,7 +34,8 @@ const Services = () => {
         <div className='services-h2 flex justify-center px-4 py-4  '>
           <img src={img_shap} alt="" className='shap-img' />
         </div>
-<h1 className='text-center font-bold px-4 py-4' data-aos="fade-up">Our services</h1>
+        <h5 className="text-center font-bold">Our Services</h5>
+<h1 className='text-center font-bold px-4 py-4' data-aos="fade-up">Find the right home for your budget</h1>
 <div className='row mt-4 mb-2'>
     <div className='col-md-4'>
     <div className='col-md-12 services-box' data-aos="fade-up">
@@ -182,10 +183,10 @@ Whether you’re looking to purchase a new car, upgrade your business equipment,
 </div>
     </div>
     </section>
-    <Gallery/>
+
    
     </>
   )
 }
 
-export default Services
+export default ServicesSection

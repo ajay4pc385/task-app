@@ -42,8 +42,25 @@ a{
     /* Optional: to add a background overlay */
     padding: 20px; /* Optional: for some padding around the text */
   }
-  
-  
+  .bg{
+    background-color: #2a2c38 !important;
+    color: #fff !important;
+  }
+  .h1-service{
+    color: #fff !important;
+    font-size: 40px !important; 
+  }
+ .service-bg{
+    color: #F5F5F5;
+    background-image: url("./image/img-section-12-1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    opacity: 0.3;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+ 
   
   .TEXT{
     /* font-size: 30px !important; */
@@ -90,6 +107,7 @@ a{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     height: 50vh;
 }
+
 .hero{
     background: #fff;
     height: 40vh;
@@ -182,7 +200,7 @@ a{
     }
     .text-overlay {
         position: absolute;
-        top: 80%;
+        top: 73%;
         left: 53%;
         width: 78%;
         transform: translate(-50%, -50%);
@@ -252,7 +270,7 @@ a{
     }
     .text-overlay {
         position: absolute;
-        top: 80%;
+       top: 73%;
         left: 53%;
         width: 78%;
         transform: translate(-50%, -50%);
@@ -330,7 +348,7 @@ a{
     }
     .text-overlay {
         position: absolute;
-        top: 80%;
+       top: 73%;
         left: 53%;
         width: 78%;
         transform: translate(-50%, -50%);
@@ -409,7 +427,7 @@ a{
     }
     .text-overlay {
         position: absolute;
-        top: 80%;
+       top: 73%;
         left: 53%;
         width: 78%;
         transform: translate(-50%, -50%);
@@ -487,7 +505,7 @@ a{
     }
     .text-overlay {
         position: absolute;
-        top: 80%;
+       top: 73%;
         left: 53%;
         width: 78%;
         transform: translate(-50%, -50%);
@@ -503,7 +521,7 @@ a{
       }
       .text-overlay {
         position: absolute;
-        top: 80%;
+       top: 73%;
         left: 53%;
         width: 78%;
         transform: translate(-50%, -50%);
@@ -583,7 +601,7 @@ a{
     }
     .text-overlay {
         position: absolute;
-        top: 80%;
+       top: 73%;
         left: 53%;
         width: 78%;
         transform: translate(-50%, -50%);

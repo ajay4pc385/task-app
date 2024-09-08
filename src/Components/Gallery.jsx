@@ -15,7 +15,7 @@ const ResponsiveSection = () => {
     <section className="flex flex-col lg:flex-row items-center justify-between px-4 py-8">
       {/* Image Section */}
       <div className="container">
-        <div className='row flex justify-center  '>
+        <div className='row flex justify-center   '>
             <div className='col-md-7'>
         <div className="relative w-full ">
   {/* Family Image */}

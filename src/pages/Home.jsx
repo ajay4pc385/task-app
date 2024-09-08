@@ -122,8 +122,8 @@ const Home = () => {
                     className="slider-image w-full h-[60vh] sm:h-[50vh] md:h-[40vh] lg:h-[30vh] xl:h-[20vh]"
                   />
                   <div className="text-overlay absolute bottom-8 left-8 text-white px-4 py-4">
-                    <h2 dangerouslySetInnerHTML={{ __html: item.h2 }} />
-                    <p className="text-sm mt-3 mb-2">{item.text}</p>
+                    <h2 dangerouslySetInnerHTML={{ __html: item.h2 }} className="font-h2" />
+                    <p className="text-sm mt-3 mb-2 TEXT">{item.text}</p>
                   </div>
                 </div>
               </div>

@@ -52,21 +52,21 @@ const Choose = () => {
 </div>
 <div className='col-lg-6'  data-aos="fade-left">
 <div>
-    <h5 className=" text-orange-500 font-bold px-4 py-8">Why Choose Us
+    <h5 className=" text-orange-500 font-bold  py-8">Why Choose Us
     </h5>
-    <h2 className='font-bold text-white px-4 py-3'>Our Expertise
+    <h2 className='font-bold text-white  py-3'>Our Expertise
     </h2>
-    <p className='text-white px-4 py-3'>Expertise and Experience: With over 20 Years of experience in the industry, our team of financial experts brings a wealth of knowledge and expertise to the table.</p>
+    <p className='text-white  py-3'>Expertise and Experience: With over 20 Years of experience in the industry, our team of financial experts brings a wealth of knowledge and expertise to the table.</p>
 <div>
-    <p className='text-white px-4 py-3'>Customer-Centric Approach: We put our clients at the heart of everything we do, offering personalized advice and support to help you make informed financial decisions.</p>
+    <p className='text-white  py-3'>Customer-Centric Approach: We put our clients at the heart of everything we do, offering personalized advice and support to help you make informed financial decisions.</p>
 
 </div>
 <div>
-    <p className='text-white px-4 py-3'>Innovative Solutions: We leverage the latest technology and financial products to provide innovative solutions that meet the evolving needs of our clients.</p>
+    <p className='text-white  py-3'>Innovative Solutions: We leverage the latest technology and financial products to provide innovative solutions that meet the evolving needs of our clients.</p>
 
 </div>
 <div>
-    <p className='text-white px-4 py-3'>Transparency and Integrity: We pride ourselves on our ethical approach, ensuring transparency and integrity in all our dealings.</p>
+    <p className='text-white  py-3'>Transparency and Integrity: We pride ourselves on our ethical approach, ensuring transparency and integrity in all our dealings.</p>
 </div>
 </div>
 </div>

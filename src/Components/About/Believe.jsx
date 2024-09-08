@@ -26,7 +26,7 @@ const Believe = () => {
   <div className="absolute inset-0 rounded-lg border-r-4 border-b-4 border-orange-500 pointer-events-none"></div>
 </div>
 
-<div>
+<div className="mt-4 mb-2">
     <h5>Our Mission</h5>
     <p className='text-gray-500'>Our mission is to provide our clients with tailored financial solutions that cater to their unique needs. We strive to make the process of securing a mortgage as straightforward and stress-free as possible, guiding you through every step with transparency and integrity.</p>
 </div>
@@ -34,7 +34,7 @@ const Believe = () => {
     <div className='col-lg-6' data-aos="fade-left">
         <h5>Welcome to Alphaa Financial Solutions</h5>
         <p className='text-gray-500'>At Alphaa Financial Solutions, we believe in empowering your property dreams with our premium financial services. Established with a vision to provide seamless loan processing and financial advisory, we have grown to become a trusted name in the Australian mortgage industry.</p>
-   <div>
+   <div className="mt-4 mb-2">
     <h5>Our Story</h5>
     <p className='text-gray-500'>Alphaa Financial Solutions was born out of a desire to simplify the complexities of property financing. Our founder,
     Mr. Pawan Punjabi, envisioned a company where customer-centricity and financial expertise go hand in hand. Over the years, we have helped thousands of Australians achieve their dream of owning a home, thanks to our unwavering commitment to excellence and innovation.</p>

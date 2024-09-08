@@ -148,7 +148,7 @@ Whether you’re looking to purchase a new car, upgrade your business equipment,
     </div>
     <div className="col-md-4">
       <div
-        className="relative h-full w-full bg-cover bg-center rounded-lg transition-opacity duration-1000"
+        className="relative  w-full bg-cover bg-center rounded-lg transition-opacity duration-1000"
         data-aos="fade-up"
         style={{
           backgroundImage: `url(${images[currentIndex]})`,

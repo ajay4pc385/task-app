@@ -11,20 +11,20 @@ const TopBar = () => {
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 items-start sm:items-center">
         <div className="flex items-center space-x-1 pt-2 mb-2">
           <IoLocationOutline className="w-5 h-5 text-orange-500" />
-          <span>Sydney, Australia</span>
+          <span className='fs-6'>Sydney, Australia</span>
         </div>
         <div className="flex items-center space-x-1 pt-2 mb-2 ">
           <IoCall className="w-5 h-5 text-orange-500" />
-          <span>0468328227</span>
+          <span  className='fs-6'>0468328227</span>
         </div>
         <div className="flex items-center space-x-1 pt-2 mb-2">
           <MdAccessTimeFilled className="w-5 h-5 text-orange-500" />
-          <span>Mon - Fri: 9:00am - 5:00pm</span>
+          <span  className='fs-6'>Mon - Fri: 9:00am - 5:00pm</span>
         </div>
       </div>
       <div className="flex items-center space-x-1 pt-2 mb-2">
         <MdAccessTimeFilled className="w-5 h-5 text-orange-500" />
-        <span>Weekends Appointments Only</span>
+        <span  className='fs-6'>Weekends Appointments Only</span>
       </div>
     </div>
   </div>

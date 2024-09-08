@@ -37,26 +37,24 @@ const BelieveSection = () => {
   return (
     <>
       <section className="bg-gray-900 text-white py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="lg:flex lg:items-center lg:justify-between">
+        <div className="container">
+          <div className="row">
             {/* Left Side */}
-            <div className="lg:w-1/2 mb-8 lg:mb-0">
+            <div className="col-md-6">
               <div className="space-y-6" data-aos="fade-right">
                 {/* Icon */}
-                <div className="text-orange-500">
-                  <img src={shap} alt='shap-icon' className='w-32 h-10 mx-auto lg:mx-0' />
-                </div>
+
                 {/* Heading */}
-                <h2 className="text-3xl lg:text-4xl font-bold text-center lg:text-left" >
+                <h1 className=" lg:text-4xl font-bold text-left lg:text-left" >
                   We Believe You're <br className="hidden lg:block" /> Bright
-                </h2>
+                </h1>
               </div>
             </div>
 
             {/* Right Side */}
-            <div className="lg:w-1/2 flex flex-col items-center lg:items-start" data-aos="fade-left">
+            <div className="col-md-6" data-aos="fade-left">
               {/* Family Image */}
-              <div className="w-full h-64 lg:h-96 bg-gray-100 rounded-lg overflow-hidden mb-6">
+              <div className="w-full  height-image  bg-gray-100 rounded-lg overflow-hidden mb-6 believe-boxes">
                 <img
                   src={Img}
                   alt="Family"
@@ -65,16 +63,16 @@ const BelieveSection = () => {
               </div>
 
               {/* Stats */}
-              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 Stats">
                 {/* Card 1 */}
-                <div className="bg-white text-gray-900 p-12 rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:bg-teal-700 hover:scale-110 w-full max-w-xs mx-auto">
-                  <p className="text-3xl font-bold text-center">{lendersCount}+</p>
+                <div className="bg-white text-gray-900 p-6 rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:bg-teal-700 hover:scale-110 w-64 max-w-xs mx-auto boxes border-b-4 border-orange-500 pointer-events-none">
+                  <h1 className=" font-bold text-center">{lendersCount}+</h1>
                   <p className="text-lg text-center">Lenders</p>
                 </div>
 
                 {/* Card 2 */}
-                <div className="bg-white text-gray-900 p-6 rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:bg-teal-700 hover:scale-110 w-full max-w-xs mx-auto">
-                  <p className="text-3xl font-bold text-center">{yearsCount}+</p>
+                <div className="bg-white text-gray-900 p-6 rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:bg-teal-700 hover:scale-110 w-64 max-w-xs mx-auto boxes_believe border-b-4 border-orange-500 pointer-events-none">
+                  <h1 className=" font-bold text-center">{yearsCount}+</h1>
                   <p className="text-lg text-center">Years Experience</p>
                 </div>
               </div>

@@ -5,13 +5,32 @@ body {
     overflow-y: scroll; 
     overflow-x: hidden; 
   }
+  .height-image{
+    height: 100%;
+  }
   .bg-color{
     background: #ebebeb;
+  }
+  .boxes_believe{
+    position: relative;
+    top: -141px;
+    left: 70px;
+  }
+  .boxes{
+    position: relative;
+    top: -202px;
+    left: 113px;
+
   }
   html{
     overflow-y: scroll; 
     overflow-x: hidden; 
 
+  }
+  .believe-boxes{
+    position: relative;
+    top: -48px;
+    left: 99px;
   }
   .height-about{
     height: 100vh;
@@ -233,6 +252,27 @@ a{
       .height-about{
         height: 50vh;
       }
+      .believe-boxes {
+        position: relative;
+        top: 14px;
+        left: 1px;
+    }
+    .boxes_believe {
+      position: relative;
+      top: -11px;
+      left: 6px;
+  }
+  .boxes {
+    position: relative;
+    top: -58px;
+    left: 3px;
+}
+.Stats{
+  width: 100%;
+}
+.height-image{
+  height: 50% !important;
+}
 }
 
 @media (max-width: 768px) {
@@ -274,7 +314,7 @@ a{
         background: #fff;
         font-family: Arial, Helvetica, sans-serif;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        height: 45vh;
+        height: 50vh;
     }
     .headers{
         top: 0px !important;
@@ -310,6 +350,27 @@ a{
       .height-about{
         height: 50vh;
       }
+      .believe-boxes {
+        position: relative;
+        top: 14px;
+        left: 1px;
+    }
+    .boxes_believe {
+      position: relative;
+      top: -11px;
+      left: 6px;
+  }
+  .boxes {
+    position: relative;
+    top: -58px;
+    left: 3px;
+}
+.Stats{
+  width: 100%;
+}
+.height-image{
+  height: 50% !important;
+}
 }
 @media (max-width: 576px) {
     html {
@@ -334,7 +395,7 @@ a{
         background: #fff;
         font-family: Arial, Helvetica, sans-serif;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        height: 45vh;
+        height: 50vh;
     }
     .hero{
         width: 100% !important;
@@ -395,7 +456,28 @@ a{
       .height-about{
         height: 50vh;
       }
+      .believe-boxes {
+        position: relative;
+        top: 14px;
+        left: 1px;
+    }
+    .boxes_believe {
+      position: relative;
+      top: -11px;
+      left: 6px;
+  }
+  .boxes {
+    position: relative;
+    top: -58px;
+    left: 3px;
+}
+.Stats{
+  width: 100%;
+}
  
+.height-image{
+  height: 50% !important;
+}
 }
 @media (max-width: 400px) {
     body {
@@ -420,7 +502,7 @@ a{
         background: #fff;
         font-family: Arial, Helvetica, sans-serif;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        height: 45vh;
+        height: 50vh;
     }
     .hero{
         width: 100% !important;
@@ -481,6 +563,32 @@ a{
       .height-about{
         height: 50vh;
       }
+      .believe-boxes {
+        position: relative;
+        top: 14px;
+        left: 1px;
+    }
+    .boxes_believe {
+      position: relative;
+      top: -11px;
+      left: 6px;
+  }
+  .boxes {
+    position: relative;
+    top: -58px;
+    left: 3px;
+}
+.boxes {
+  position: relative;
+  top: -58px;
+  left: 3px;
+}
+.Stats{
+  width: 100%;
+}
+.height-image{
+  height: 50% !important;
+}
 }
 @media (max-width: 300px) {
     body {
@@ -505,7 +613,7 @@ a{
         background: #fff;
         font-family: Arial, Helvetica, sans-serif;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        height: 45vh;
+        height: 50vh;
     }
     .hero{
         width: 100% !important;
@@ -582,6 +690,27 @@ a{
       .height-about{
         height: 50vh;
       }
+      .believe-boxes {
+        position: relative;
+        top: 14px;
+        left: 1px;
+    }
+    .boxes_believe {
+      position: relative;
+      top: -11px;
+      left: 6px;
+  }
+  .boxes {
+    position: relative;
+    top: -58px;
+    left: 3px;
+}
+.Stats{
+  width: 100%;
+}
+.height-image{
+  height: 50% !important;
+}
 }
 
 
@@ -608,7 +737,7 @@ a{
         background: #fff;
         font-family: Arial, Helvetica, sans-serif;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        height: 45vh;
+        height: 50vh;
     }
     .hero{
         width: 100% !important;
@@ -669,4 +798,25 @@ a{
       .height-about{
         height: 50vh;
       }
+      .believe-boxes {
+        position: relative;
+        top: 14px;
+        left: 1px;
+    }
+    .boxes_believe {
+      position: relative;
+      top: -11px;
+      left: 6px;
+  }
+  .boxes {
+    position: relative;
+    top: -58px;
+    left: 3px;
+}
+.Stats{
+  width: 100%;
+}
+.height-image{
+  height: 50% !important;
+}
 }

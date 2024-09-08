@@ -88,14 +88,15 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
+<div className="mt-4 m-2">
       {/* Scroll to Top Button */}
       <button
         onClick={scrollToTop}
-        className="fixed bottom-5 right-16 bg-orange-500 text-white p-3 rounded-full shadow-lg transition-transform duration-300 ease-in-out hover:bg-orange-300 hover:scale-110"
+        className="fixed bottom-5 right-36  mt-4 mb-2 bg-orange-500 text-white p-3 rounded-full shadow-lg transition-transform duration-300 ease-in-out hover:bg-orange-300 hover:scale-110"
       >
         <FaArrowUp />
       </button>
+      </div>
     </footer>
   );
 };

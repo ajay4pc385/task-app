@@ -35,7 +35,7 @@ const Choose = () => {
 <div className='col-lg-6'  data-aos="fade-right">
 <div 
 
-        className="relative h-screen w-full bg-cover bg-center rounded-lg transition-opacity duration-1000 absolute inset-0 rounded-lg border-l-4 border-b-4 border-orange-500 pointer-events-none"
+        className="relative h-full w-full bg-cover bg-center rounded-lg transition-opacity duration-1000 absolute inset-0 rounded-lg border-l-4 border-b-4 border-orange-500 pointer-events-none"
         data-aos="fade-up"
         style={{
           backgroundImage: `url(${images[currentIndex]})`,

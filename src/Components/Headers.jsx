@@ -53,7 +53,7 @@ const Headers = () => {
           <a href="/faq" className="block px-4 font-bold py-4 lg:py-0 text-gray-800 text-sm hover:text-white hover:bg-gray-900 ">
             FAQ'S
           </a>
-          <button className="hidden lg:block font-bold bg-gray-900 text-white py-4 px-4 text-sm rounded-md hover:bg-gray-700 sm-3">
+          <button className="hidden lg:block font-bold bg-gray-900 text-white py-4 px-4 text-sm rounded-md hover:bg-gray-700 sm-3 transition duration-0 hover:duration-150">
             CALL US ANYTIME
           </button>
         </nav>

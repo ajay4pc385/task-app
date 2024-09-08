@@ -41,11 +41,11 @@ const Footer = () => {
           <div className="space-y-2">
             <div className="flex justify-between">
               <span className='font-semibold text-orange-500'>Mon to Fri:</span>
-              <span >........................................................................................................ 9:00AM | 5:00PM</span>
+              <span >............................................................................................. 9:00AM | 5:00PM</span>
             </div>
             <div className="flex justify-between">
               <span className='font-semibold text-orange-500'>Sat to Sun:</span>
-              <span>.................................................................................................... Appointments Only</span>
+              <span>....................................................................................... Appointments Only</span>
             </div>
           </div>
           <button className="bg-orange-500 hover:bg-white  text-dark font-bold py-2 px-4 w-full rounded-md ">

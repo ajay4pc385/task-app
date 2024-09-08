@@ -11,7 +11,7 @@ const Founder = () => {
   return (
     <>
   
-    <section>
+    <section className="bg-color">
 
  
 

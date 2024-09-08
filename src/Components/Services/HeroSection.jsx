@@ -7,7 +7,7 @@ const HeroSection = () => {
 <section className='px-3 py-24'>
     <div className='container'>
         <div>
-            <h2 className='font-bold py-24'>Services</h2>
+            <h1 className='font-bold px-5 py-6'>Services</h1>
             </div>
        
     </div>

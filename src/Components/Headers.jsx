@@ -9,7 +9,9 @@ import { Link } from 'react-router-dom';
 
 const Headers = () => {
   const [isOpen, setIsOpen] = useState(false);
-
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
   return (
     <div>
           <header className="border-b-2">
@@ -44,13 +46,13 @@ const Headers = () => {
         {/* Call us Button */}
         <div className="hidden lg:block d-flex ">
         <nav className={`lg:flex lg:space-x-8 lg:items-center ${isOpen ? 'block' : 'hidden'} absolute lg:relative bg-white lg:bg-transparent w-full lg:w-auto left-0 lg:left-auto top-16 lg:top-auto  lg:shadow-none`}>
-          <Link to="/" className="block px-4 py-4 font-bold lg:py-0 text-sm text-gray-800 hover:text-white hover:bg-gray-900  transition-transform duration-300 ease-in-out  hover:scale-110">
+          <Link to="/" onClick={handleLinkClick} className="block px-4 py-4 font-bold lg:py-0 text-sm text-gray-800 hover:text-white hover:bg-gray-900  transition-transform duration-300 ease-in-out  hover:scale-110">
             HOME
           </Link>
-          <Link to="/about-us" className="block px-4 font-bold py-4 lg:py-0 text-sm text-gray-800 hover:text-white hover:bg-gray-900 transition-transform duration-300 ease-in-out  hover:scale-110">
+          <Link to="/about-us" onClick={handleLinkClick} className="block px-4 font-bold py-4 lg:py-0 text-sm text-gray-800 hover:text-white hover:bg-gray-900 transition-transform duration-300 ease-in-out  hover:scale-110">
             ABOUT US
           </Link>
-          <Link to="/services" className="block font-bold px-4 py-4 lg:py-0 text-sm text-gray-800 hover:text-white hover:bg-gray-900 transition-transform duration-300 ease-in-out  hover:scale-110">
+          <Link to="/services" onClick={handleLinkClick} className="block font-bold px-4 py-4 lg:py-0 text-sm text-gray-800 hover:text-white hover:bg-gray-900 transition-transform duration-300 ease-in-out  hover:scale-110">
             SERVICES
           </Link>
         

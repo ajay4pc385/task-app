@@ -1,4 +1,6 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Img from "../../image/about/testimonial-1-1.jpg";
 import Img2 from "../../image/about/testimonial-2-1.jpg";
 import Img3 from "../../image/about/testimonial-3-1.jpg";
@@ -29,6 +31,9 @@ const testimonials = [
 ];
 
 const TestimonialSection = () => {
+  useEffect(() => {
+		AOS.init();
+	  }, []);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextTestimonial = () => {
@@ -54,8 +59,8 @@ const TestimonialSection = () => {
 
   return (
     <>  
-      <section className="py-8 px-4 text-center hero-service">
-      <div className="flex justify-center space-x-4 mb-4">
+      <section className="py-8 px-4 text-center hero-service" data-aos="fade-up">
+      <div className="flex justify-center space-x-4 mb-4" >
         {testimonials.map((testimonial, index) => (
           <img
             key={index}

@@ -9,7 +9,7 @@ const About = () => {
    
     <div className='container'>
         <div className='about-h1'>
-<h1 className='font-bold px-5 py-24'>About Us</h1>
+<h1 className='font-bold px-5 py-6'>About Us</h1>
         </div>
     
 
